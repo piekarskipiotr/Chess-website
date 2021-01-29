@@ -1,0 +1,288 @@
+﻿body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #1D1B28;
+}
+
+.full-height {
+    height: 100%;
+}
+
+#navigation {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #11111E;
+}
+
+#navigation > div {
+    display: flex;
+}
+
+.margin-sides {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#logo > a > img {
+    width: 84px;
+}
+
+#menu {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.custom-grid{
+    width: 100%;
+    border: 0;
+}
+
+.custom-grid td {
+    padding: 5px;
+    border: 0;
+}
+
+.custom-grid th {
+    padding: 5px;
+    border: 0;
+}
+
+.rows:hover {
+    opacity: 0.8;
+}
+
+.custom-grid td a {
+    color: #fca311;    
+}
+
+.header {
+    background-color: #11111E;
+    color: white;
+    border: 0;
+}
+
+.rows {
+    background-color: #353445;
+}
+
+#menu > a {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #fca311;
+}
+
+#banner {
+    height: 50vh;
+    position: relative;
+    background-color: #11111E;
+}
+
+#banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+#content {
+    min-height: 100vh;
+}
+
+#main {
+    width: 50%;
+    padding: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    color: #e5e5e5;
+}
+
+#main img{
+    text-align: center;
+}
+
+#team-container{
+    text-align: center;
+}
+
+.person-card {
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin-left: 5%;
+    background-color: #353445;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.person-card img{
+    width: 124px;
+    border-radius: 50%;
+}
+
+.card {
+    color: #e5e5e5;
+    min-height: 40vh;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #353445;
+}
+
+.card h2 {
+   color: #fca311;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+hr.custom-hr {
+    border: 1px solid #696773;
+}
+
+.card-footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: end;
+}
+
+.card-footer a:hover {
+    text-decoration: none;
+}
+
+.custom-button {
+    padding: 10px;
+    color: white;
+    border: 2px solid #fca311;
+}
+.custom-button:hover {
+    transition-duration: 0.5s;
+    background-color: #fca311;
+    color: white;
+}
+
+.custom-button2 {
+    padding: 10px;
+    color: white;
+    background: #fca311;
+    border: 1px solid #fca311;
+    font-size: 16px;
+}
+
+.custom-button2:hover {
+    transition-duration: 0.5s;
+    background-color: transparent;
+    color: white;
+
+}
+
+.custom-button3 {
+    padding: 10px;
+    color: white;
+    background: #941b0c;
+    border: 1px solid #941b0c;
+    font-size: 16px;
+}
+.custom-button3:hover {
+    transition-duration: 0.5s;
+    background-color: transparent;
+    color: white;
+}
+
+.field {
+    color: white;
+    background-color: #353445;
+    padding: 10px;
+    border: 0;
+    margin-top: 5px;
+}
+
+.txtDescription {
+    width: 100%;
+    min-height: 150px;
+    resize: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+#footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#footer-copyrights img {
+    width: 54px;
+}
+
+#footer-copyrights > p {
+    padding: 40px;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer-content {
+    text-align: start;
+}
+
+
+#footer a {
+    color: #fca311;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1420px) {
+    #main {
+        width: 90%;
+        padding: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .card-footer {
+        text-align: center;
+    }
+
+    #footer-content {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #menu > a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        font-weight: bold;
+        color: #fca311;
+    }
+}

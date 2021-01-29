@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="SzachClub___projekt_ASP.NET.Site2" %>
+
+<!DOCTYPE html>
+<html lang="pl">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>SzachClub</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo_icon.ico" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server" method="post">
+             
+    <div class="full-height">
+        <div id="navigation">
+            <div class="margin-sides">
+                <div id="logo">
+                    <a href="Homepage.aspx">
+                        <img src="images/logo.png"/>
+                    </a> 
+                </div>
+                <div id="menu">
+                    <a href="Homepage.aspx">Strona Główna</a>
+                    <a href="GameRules.aspx">Zasady gry</a>
+                    <a href="Pieces.aspx">Figury</a>
+                    <a href="GamePhases.aspx">Fazy gry</a>
+                    <a href="Openings.aspx">Otwarcia szachowe</a>
+                    <a href="Record.aspx">Zapis partii</a>
+                    <a href="Books.aspx">Literatura</a>
+                    <a href="Gallery.aspx">Galeria gier</a>
+                </div>
+            </div>
+        </div>
+        <div id="banner">
+            <div id="banner-text">
+                <h1><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></h1>
+                <p><asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder></p>
+            </div>
+        </div>
+        <div id="content">
+            <div id="main">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server"></asp:ContentPlaceHolder>
+     
+            </div>
+        </div>
+        <div id="footer">
+            <br>
+            <div id="footer-copyrights">
+                <p>
+                    <img src="images/logo.png"/>
+                    <br>Stworzone z ♥ przez 
+                    <a href="https://github.com/piekarskipiotr">
+                        Piotr Piekarski
+                    </a>
+                </p>
+            </div>
+            
+            <div id="footer-content">
+                <div>
+                    <h3>Kontakt</h3>
+                    <p>E-mail: ppiekarski2@edu.cdv.com</p>
+                    <p>Telefon: 123 420 301</p>
+                </div>
+                <div>
+                    <h3>Polecane linki</h3>
+                    <p><a href="https://www.chess.com">Szachy online</a></p>
+                    <p><a href="https://www.empik.com/ksiazki,31,s?q=szachy">Książki</a></p>
+                    <p><a href="https://www.youtube.com/channel/UCjNsmyjCkbMLhpbK3xQiiEg">Kanał youtube</a></p>
+                </div>
+                <div>
+                    <h3>Admin Panel</h3>
+                    <div id="LinkView" runat="server">
+                    <p><a href="AdminPanelLogin.aspx">Przejdź do panelu</a></p>
+                    </div>
+                    <div id="LoginViewDiv" runat="server">
+                         <p><a href="AdminPanel.aspx">Przejdź do panelu</a></p>
+                            <p>Zalogowano jako: 
+                                <asp:Label ID="UserName" runat="server" Text="Label" /><br><br>
+                                <asp:Button style="cursor:pointer;" class="custom-button2" Text="Wyloguj" runat="server" onclick="LogoutBtn"/>
+                            </p>
+                           
+                   </div>
+                </div>
+        </div>
+            
+        </div>
+    </div>
+    </form>
+</body>
+</html>
+

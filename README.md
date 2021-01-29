@@ -2,10 +2,10 @@
 Website about chess with secure pages and gallery of games.
 
 ## 🔍 Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Features](#features)
-* [Photos](#photos)
+* [General info](#-general-info)
+* [Technologies](#-technologies)
+* [Features](#-features)
+* [Photos](#-photos)
 
 ## 📝 General info
 This website was build for one of my projects at Collegium Da Vinci. This is my firts meet with C# and ASP.NET Framework.

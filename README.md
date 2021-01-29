@@ -8,7 +8,7 @@ Website about chess with secure pages and gallery of games.
 * [Photos](#-photos)
 
 ## 📝 General info
-This website was build for one of my projects at Collegium Da Vinci. This is my firts meet with C# and ASP.NET Framework.
+This website was build for one of my projects at [Collegium Da Vinci][cdv]. This is my firts meet with C# and ASP.NET Framework.
 	
 ## 🛠 Technologies
 Project is created with **HTML, CSS, C#**.
@@ -28,3 +28,6 @@ Project is created with **HTML, CSS, C#**.
 ### Admin panel page
 ![alt](assets/image2.png)
 <br>
+
+
+[cdv]: https://cdv.pl/

@@ -18,7 +18,7 @@ Project is created with **HTML, CSS, C#**.
 
 ## 💡 Features
 * Login into secure page (Admin Panel)
-* Adding and edit posts
+* Adding and editing posts
 
 ## 📸 Photos
 
